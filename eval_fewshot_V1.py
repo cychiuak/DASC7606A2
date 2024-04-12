@@ -125,7 +125,7 @@ def example_formating(question, answer=None, candidate_answers=None, prompt_type
         if answer is not None:
             prompt = f"Question: {question}\nAnswer: {answer}"
         else:
-            prompt = f"Question: {question}\nAnswer:"
+            prompt = f"Question: {question}\nAnswer is ?"
     else:
         raise NotImplementedError
     return prompt
